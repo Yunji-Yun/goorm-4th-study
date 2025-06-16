@@ -1,0 +1,20 @@
+.StartContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#homeTitle {
+  font-size: 120px;
+  color: #ffffff;
+  font-weight: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  margin-bottom: 30px;
+}
