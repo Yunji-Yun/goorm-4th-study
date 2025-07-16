@@ -1,0 +1,27 @@
+.EditContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#inputContainer2 {
+  padding: 80px 80px 80px 100px;
+}
+
+#diaryEditBtn,
+#diaryDeleteBtn {
+  background-color: #ffbfc2;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  width: 220px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 900;
+}

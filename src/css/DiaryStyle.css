@@ -1,0 +1,100 @@
+.DiaryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.diaryBoxs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.diaryBox {
+  width: 630px;
+  height: 819px;
+  background-size: 650px 845px;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 10;
+}
+
+.leftBox {
+  background-image: url("../img/leftBox.png");
+}
+
+.rightBox {
+  background-image: url("../img/rightBox.png");
+}
+
+.diaryContextContainer {
+  padding: 80px 80px 80px 100px;
+}
+
+.diaryContextGroup {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.diaryContextTitle {
+  font-size: 25px;
+  font-weight: 900;
+  color: #000;
+}
+
+.contextBox {
+  width: 100%;
+  padding: 0 0 0 10px;
+  font-size: 20px;
+}
+
+#dateBox {
+  width: 400px;
+  height: 50px;
+}
+
+#weatherBox,
+#moodBox {
+  width: 400px;
+  height: 50px;
+}
+
+#keywordBox {
+  width: 400px;
+  height: 100px;
+}
+
+#textBox {
+  width: 454px;
+  height: 480px;
+}
+
+#diarySubmitBtn2,
+#diaryEditBtn {
+  background-color: #ffbfc2;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  width: 220px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.buttonWrapper2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
